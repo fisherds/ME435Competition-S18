@@ -6,10 +6,12 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="GolfBallDelivery" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1cd28386-8013-4204-bd83-c50c2df7d827" name="Default" comment="">
+    <list default="true" id="aa71e914-2b81-4540-986c-45f046bc7d66" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/edu/rosehulman/golfballdelivery/Scripts.java" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.4.1/javaCompile/classAnalysis.bin" />
@@ -18,20 +20,22 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
+      <change beforePath="$PROJECT_DIR$/GolfBallDeliveryGpsOnly.iml" afterPath="$PROJECT_DIR$/GolfBallDeliveryGpsOnly.iml" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/build-info/debug/build-info.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/build-info/debug/build-info.xml" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/rosehulman/golfballdelivery/GolfBallDeliveryActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/rosehulman/golfballdelivery/GolfBallDeliveryActivity$1.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/rosehulman/golfballdelivery/GolfBallDeliveryActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/rosehulman/golfballdelivery/GolfBallDeliveryActivity$2.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/rosehulman/golfballdelivery/GolfBallDeliveryActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/rosehulman/golfballdelivery/GolfBallDeliveryActivity$3.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/rosehulman/golfballdelivery/GolfBallDeliveryActivity$BallColor.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/rosehulman/golfballdelivery/GolfBallDeliveryActivity$BallColor.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/rosehulman/golfballdelivery/GolfBallDeliveryActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/rosehulman/golfballdelivery/GolfBallDeliveryActivity.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/rosehulman/me435/RobotActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/edu/rosehulman/me435/RobotActivity.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/edu/rosehulman/golfballdelivery/GolfBallDeliveryActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/edu/rosehulman/golfballdelivery/GolfBallDeliveryActivity$1.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/edu/rosehulman/golfballdelivery/GolfBallDeliveryActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/edu/rosehulman/golfballdelivery/GolfBallDeliveryActivity$2.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/edu/rosehulman/golfballdelivery/GolfBallDeliveryActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/edu/rosehulman/golfballdelivery/GolfBallDeliveryActivity$3.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/edu/rosehulman/golfballdelivery/GolfBallDeliveryActivity$BallColor.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/edu/rosehulman/golfballdelivery/GolfBallDeliveryActivity$BallColor.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/edu/rosehulman/golfballdelivery/GolfBallDeliveryActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/edu/rosehulman/golfballdelivery/GolfBallDeliveryActivity.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/merge-state" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/merge-state" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/edu/rosehulman/me435/RobotActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/edu/rosehulman/me435/RobotActivity.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_2/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_2/dex-renamer-state.txt" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_5/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_5/dex-renamer-state.txt" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_2.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_2.apk" />
@@ -41,22 +45,30 @@
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/edu/rosehulman/golfballdelivery/GolfBallDeliveryActivity$3.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/edu/rosehulman/golfballdelivery/GolfBallDeliveryActivity$3.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/edu/rosehulman/golfballdelivery/GolfBallDeliveryActivity$BallColor.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/edu/rosehulman/golfballdelivery/GolfBallDeliveryActivity$BallColor.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/edu/rosehulman/golfballdelivery/GolfBallDeliveryActivity.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/edu/rosehulman/golfballdelivery/GolfBallDeliveryActivity.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/17/edu/rosehulman/me435/RobotActivity.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/17/edu/rosehulman/me435/RobotActivity.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/__content__.json" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/__content__.json" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/2/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/2/classes.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/5/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/5/classes.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/__content__.json" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/__content__.json" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/edu/rosehulman/golfballdelivery/GolfBallDeliveryActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/edu/rosehulman/golfballdelivery/GolfBallDeliveryActivity$1.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/edu/rosehulman/golfballdelivery/GolfBallDeliveryActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/edu/rosehulman/golfballdelivery/GolfBallDeliveryActivity$2.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/edu/rosehulman/golfballdelivery/GolfBallDeliveryActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/edu/rosehulman/golfballdelivery/GolfBallDeliveryActivity$3.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/edu/rosehulman/golfballdelivery/GolfBallDeliveryActivity$BallColor.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/edu/rosehulman/golfballdelivery/GolfBallDeliveryActivity$BallColor.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/edu/rosehulman/golfballdelivery/GolfBallDeliveryActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/edu/rosehulman/golfballdelivery/GolfBallDeliveryActivity.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/edu/rosehulman/me435/RobotActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/edu/rosehulman/me435/RobotActivity.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/__content__.json" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/__content__.json" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/2/buildId.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/2/buildId.txt" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/2/edu/rosehulman/golfballdelivery/GolfBallDeliveryActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/2/edu/rosehulman/golfballdelivery/GolfBallDeliveryActivity$1.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/2/edu/rosehulman/golfballdelivery/GolfBallDeliveryActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/2/edu/rosehulman/golfballdelivery/GolfBallDeliveryActivity$2.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/2/edu/rosehulman/golfballdelivery/GolfBallDeliveryActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/2/edu/rosehulman/golfballdelivery/GolfBallDeliveryActivity$3.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/2/edu/rosehulman/golfballdelivery/GolfBallDeliveryActivity$BallColor.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/2/edu/rosehulman/golfballdelivery/GolfBallDeliveryActivity$BallColor.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/2/edu/rosehulman/golfballdelivery/GolfBallDeliveryActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/2/edu/rosehulman/golfballdelivery/GolfBallDeliveryActivity.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/mergeJavaRes/debug/__content__.json" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/mergeJavaRes/debug/__content__.json" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/5/buildId.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/5/buildId.txt" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/5/edu/rosehulman/me435/RobotActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/5/edu/rosehulman/me435/RobotActivity.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/__content__.json" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/__content__.json" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/rosehulman/golfballdelivery/GolfBallDeliveryActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/edu/rosehulman/golfballdelivery/GolfBallDeliveryActivity.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/rosehulman/me435/RobotActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/edu/rosehulman/me435/RobotActivity.java" />
     </list>
-    <ignored path="$PROJECT_DIR$/build/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,38 +76,87 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CodeInsightWorkspaceSettings">
-    <option name="optimizeImportsOnTheFly" value="true" />
-  </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
   </component>
-  <component name="ExternalProjectsManager">
-    <system id="GRADLE">
-      <state>
-        <projects_view />
-      </state>
-    </system>
-  </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="Scripts.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/rosehulman/golfballdelivery/Scripts.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="38" column="28" lean-forward="false" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#396#397#0" expanded="true" />
+                <element signature="e#426#427#0" expanded="true" />
+                <element signature="e#671#860#0" expanded="true" />
+                <element signature="e#859#860#0" expanded="true" />
+                <element signature="e#1248#1418#0" expanded="true" />
+                <element signature="e#1417#1418#0" expanded="true" />
+                <element signature="e#1467#1717#0" expanded="true" />
+                <element signature="e#1716#1717#0" expanded="true" />
+                <element signature="e#2004#2134#0" expanded="true" />
+                <element signature="e#2133#2134#0" expanded="true" />
+                <element signature="e#2173#2308#0" expanded="true" />
+                <element signature="e#2307#2308#0" expanded="true" />
+                <element signature="e#2349#2510#0" expanded="true" />
+                <element signature="e#2509#2510#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="GolfBallDeliveryActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/rosehulman/golfballdelivery/GolfBallDeliveryActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4165">
-              <caret line="255" column="0" lean-forward="false" selection-start-line="255" selection-start-column="0" selection-end-line="255" selection-end-column="0" />
+            <state relative-caret-position="164">
+              <caret line="252" column="0" lean-forward="true" selection-start-line="252" selection-start-column="0" selection-end-line="252" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#8520#8521#0" expanded="true" />
-                <element signature="e#8565#8566#0" expanded="true" />
+                <element signature="e#15380#15381#0" expanded="true" />
+                <element signature="e#15444#15445#0" expanded="true" />
+                <element signature="e#15488#15489#0" expanded="true" />
+                <element signature="e#15551#15552#0" expanded="true" />
+                <element signature="e#15595#15596#0" expanded="true" />
+                <element signature="e#15656#15657#0" expanded="true" />
+                <element signature="e#15700#15701#0" expanded="true" />
+                <element signature="e#15763#15764#0" expanded="true" />
+                <element signature="e#15807#15808#0" expanded="true" />
+                <element signature="e#15869#15870#0" expanded="true" />
+                <element signature="e#15913#15914#0" expanded="true" />
+                <element signature="e#15976#15977#0" expanded="true" />
+                <element signature="e#16020#16021#0" expanded="true" />
+                <element signature="e#16068#16069#0" expanded="true" />
+                <element signature="e#16111#16112#0" expanded="true" />
+                <element signature="e#16168#16169#0" expanded="true" />
+                <element signature="e#16214#16215#0" expanded="true" />
+                <element signature="e#16267#16268#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>onCrea</find>
+      <find>onComm</find>
+      <find>onStart</find>
+      <find>onL</find>
+      <find>onSe</find>
+      <find>RedTeam</find>
+      <find>private</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -2117,15 +2178,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/edu/rosehulman/me435/RobotActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/edu/rosehulman/golfballdelivery/Scripts.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/edu/rosehulman/golfballdelivery/GolfBallDeliveryActivity.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="394" />
-    <option name="y" value="-876" />
-    <option name="width" value="1198" />
+    <option name="x" value="171" />
+    <option name="y" value="-896" />
+    <option name="width" value="951" />
     <option name="height" value="657" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -2146,13 +2208,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <expand>
             <path>
               <item name="GolfBallDeliveryGpsOnly" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="GolfBallDeliveryGpsOnly" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="manifests" type="f94875db:AndroidManifestsGroupNode" />
             </path>
             <path>
               <item name="GolfBallDeliveryGpsOnly" type="1abcf292:AndroidViewProjectNode" />
@@ -2181,26 +2247,36 @@
             </path>
             <path>
               <item name="GolfBallDeliveryGpsOnly" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+            </path>
+            <path>
+              <item name="GolfBallDeliveryGpsOnly" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="values" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="GolfBallDeliveryGpsOnly" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="xml" type="ddeffd01:AndroidResFolderTypeNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="device.picker.selection" value="025e3b4b83bd9a83" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/src/main/java" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -2373,21 +2449,20 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1cd28386-8013-4204-bd83-c50c2df7d827" name="Default" comment="" />
-      <created>1524505192329</created>
+      <changelist id="aa71e914-2b81-4540-986c-45f046bc7d66" name="Default" comment="" />
+      <created>1524588857042</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1524505192329</updated>
+      <updated>1524588857042</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="394" y="-876" width="1198" height="657" extended-state="0" />
+    <frame x="171" y="-896" width="951" height="657" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283859" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -2396,12 +2471,12 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4489796" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283859" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26730105" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40816328" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34983498" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -2425,54 +2500,88 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/import-summary.txt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/usb_accessory_filter.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-191">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="51">
+          <caret line="3" column="34" lean-forward="true" selection-start-line="3" selection-start-column="34" selection-end-line="6" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="21" column="57" lean-forward="false" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+        <state relative-caret-position="289">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="30" selection-end-column="63" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-122">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
+      <provider editor-type-id="android-manifest">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/rosehulman/me435/FieldGps.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="357">
+          <caret line="21" column="50" lean-forward="false" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/rosehulman/me435/RobotActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-239">
-          <caret line="297" column="66" lean-forward="false" selection-start-line="297" selection-start-column="52" selection-end-line="297" selection-end-column="66" />
+        <state relative-caret-position="452">
+          <caret line="323" column="4" lean-forward="false" selection-start-line="323" selection-start-column="4" selection-end-line="323" selection-end-column="25" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/rosehulman/golfballdelivery/Scripts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="38" column="28" lean-forward="false" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#671#860#0" expanded="true" />
+            <element signature="e#859#860#0" expanded="true" />
+            <element signature="e#1248#1418#0" expanded="true" />
+            <element signature="e#1417#1418#0" expanded="true" />
+            <element signature="e#1467#1717#0" expanded="true" />
+            <element signature="e#1716#1717#0" expanded="true" />
+            <element signature="e#2004#2134#0" expanded="true" />
+            <element signature="e#2133#2134#0" expanded="true" />
+            <element signature="e#2173#2308#0" expanded="true" />
+            <element signature="e#2307#2308#0" expanded="true" />
+            <element signature="e#2349#2510#0" expanded="true" />
+            <element signature="e#2509#2510#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/rosehulman/golfballdelivery/GolfBallDeliveryActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4165">
-          <caret line="255" column="0" lean-forward="false" selection-start-line="255" selection-start-column="0" selection-end-line="255" selection-end-column="0" />
+        <state relative-caret-position="164">
+          <caret line="252" column="0" lean-forward="true" selection-start-line="252" selection-start-column="0" selection-end-line="252" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#8520#8521#0" expanded="true" />
-            <element signature="e#8565#8566#0" expanded="true" />
+            <element signature="e#15380#15381#0" expanded="true" />
+            <element signature="e#15444#15445#0" expanded="true" />
+            <element signature="e#15488#15489#0" expanded="true" />
+            <element signature="e#15551#15552#0" expanded="true" />
+            <element signature="e#15595#15596#0" expanded="true" />
+            <element signature="e#15656#15657#0" expanded="true" />
+            <element signature="e#15700#15701#0" expanded="true" />
+            <element signature="e#15763#15764#0" expanded="true" />
+            <element signature="e#15807#15808#0" expanded="true" />
+            <element signature="e#15869#15870#0" expanded="true" />
+            <element signature="e#15913#15914#0" expanded="true" />
+            <element signature="e#15976#15977#0" expanded="true" />
+            <element signature="e#16020#16021#0" expanded="true" />
+            <element signature="e#16068#16069#0" expanded="true" />
+            <element signature="e#16111#16112#0" expanded="true" />
+            <element signature="e#16168#16169#0" expanded="true" />
+            <element signature="e#16214#16215#0" expanded="true" />
+            <element signature="e#16267#16268#0" expanded="true" />
           </folding>
         </state>
       </provider>
