@@ -29,6 +29,13 @@ public class ImageRecActivity extends RobotActivity implements CameraBridgeViewB
 
   public static final String TAG = "ConeFinder";
 
+  /** Records the latest boolean value for the cone found status.  True mean cone is visible. */
+  protected boolean mConeFound;
+
+  /** If mConeFound is true, then the location and size of the cone is described by these fields. */
+  protected double mConeLeftRightLocation, mConeTopBottomLocation, mConeSize;
+
+
   /** References to the UI widgets used in this demo app. */
   private TextView mLeftRightLocationTextView, mTopBottomLocationTextView, mSizePercentageTextView;
 
@@ -53,14 +60,14 @@ public class ImageRecActivity extends RobotActivity implements CameraBridgeViewB
 
   // Set the color to track...
   /** Target color. An inside cone has an orange hue around 5 - 15, full saturation and value. (change as needed when outside) */
-  private static final int TARGET_COLOR_HUE = 5;
-  private static final int TARGET_COLOR_SATURATION = 255;
-  private static final int TARGET_COLOR_VALUE = 255;
+  protected int mConeTargetH = 5;
+  protected int TARGET_COLOR_SATURATION = 255;
+  protected int TARGET_COLOR_VALUE = 255;
 
   /** Range of acceptable colors. (change as needed) */
-  private static final int TARGET_COLOR_HUE_RANGE = 25;
-  private static final int TARGET_COLOR_SATURATION_RANGE = 50;
-  private static final int TARGET_COLOR_VALUE_RANGE = 50;
+  protected int TARGET_COLOR_HUE_RANGE = 25;
+  protected int TARGET_COLOR_SATURATION_RANGE = 50;
+  protected int TARGET_COLOR_VALUE_RANGE = 50;
 
   /** Minimum size needed to consider the target a cone. (change as needed) */
   private static final double MIN_SIZE_PERCENTAGE = 0.001;
@@ -88,6 +95,7 @@ public class ImageRecActivity extends RobotActivity implements CameraBridgeViewB
     mOpenCvCameraView.setCvCameraViewListener(this);
 
     mViewFlipper = findViewById(R.id.my_view_flipper);
+    mViewFlipper.setDisplayedChild(1); // Note, if you uninstall the app, remove this line since it will cause a permissions crash
 
     if (PackageManager.PERMISSION_GRANTED == ContextCompat.checkSelfPermission(this, Manifest.permission.CAMERA)) {
       Log.d(TAG, "Everything should be fine with using the camera.");
@@ -118,10 +126,15 @@ public class ImageRecActivity extends RobotActivity implements CameraBridgeViewB
 
   /** Displays the blob target info in the text views. */
   public void onImageRecComplete(boolean coneFound, double leftRightLocation, double topBottomLocation, double sizePercentage) {
-    if (coneFound) {
-      mLeftRightLocationTextView.setText(String.format("%.3f", leftRightLocation));
-      mTopBottomLocationTextView.setText(String.format("%.3f", topBottomLocation));
-      mSizePercentageTextView.setText(String.format("%.5f", sizePercentage));
+    mConeFound = coneFound;
+    mConeLeftRightLocation = leftRightLocation;
+    mConeTopBottomLocation = topBottomLocation;
+    mConeSize = sizePercentage;
+
+    if (mConeFound) {
+      mLeftRightLocationTextView.setText(String.format("%.3f", mConeLeftRightLocation));
+      mTopBottomLocationTextView.setText(String.format("%.3f", mConeTopBottomLocation));
+      mSizePercentageTextView.setText(String.format("%.5f", mConeSize));
     } else {
       mLeftRightLocationTextView.setText("---");
       mTopBottomLocationTextView.setText("---");
@@ -138,7 +151,7 @@ public class ImageRecActivity extends RobotActivity implements CameraBridgeViewB
 
     // Setup the target color.
     Scalar targetColorHsv = new Scalar(255);
-    targetColorHsv.val[0] = TARGET_COLOR_HUE;
+    targetColorHsv.val[0] = mConeTargetH;
     targetColorHsv.val[1] = TARGET_COLOR_SATURATION;
     targetColorHsv.val[2] = TARGET_COLOR_VALUE;
     mDetector.setHsvColor(targetColorHsv);

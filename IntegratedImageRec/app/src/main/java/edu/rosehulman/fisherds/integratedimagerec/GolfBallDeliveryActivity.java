@@ -275,6 +275,15 @@ public class GolfBallDeliveryActivity extends ImageRecActivity {
     mJumboXTextView.setText("" + (int)mGuessX);
     mJumboYTextView.setText("" + (int)mGuessY);
 
+    // To help you debug change the background color of the jumbotron
+    if (mConeFound) {
+      mJumbotronLinearLayout.setBackgroundColor(Color.parseColor("#ff8000"));
+    } else if (mCurrentGpsHeading != NO_HEADING) {
+      mJumbotronLinearLayout.setBackgroundColor(Color.GREEN);
+    } else {
+      mJumbotronLinearLayout.setBackgroundColor(Color.LTGRAY);
+    }
+
     long timeRemainingSeconds = MATCH_LENGTH_MS / 1000;
     if (mState != State.READY_FOR_MISSION) {
       timeRemainingSeconds = (MATCH_LENGTH_MS - getMatchTimeMs()) / 1000;
@@ -342,15 +351,6 @@ public class GolfBallDeliveryActivity extends ImageRecActivity {
     } else {
       gpsInfo += " ?°";
     }
-
-    // TODO: Once image rec is done, move this area to the loop function!
-    if (mCurrentGpsHeading != NO_HEADING) {
-      mJumbotronLinearLayout.setBackgroundColor(Color.GREEN);
-    } else {
-      mJumbotronLinearLayout.setBackgroundColor(Color.LTGRAY);
-    }
-
-
     gpsInfo += "   " + mGpsCounter;
     mGpsInfoTextView.setText(gpsInfo);
 
