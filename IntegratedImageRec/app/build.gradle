@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 27
     defaultConfig {
-        applicationId "edu.rosehulman.fisherds.integratedimagerec"
+        applicationId "edu.rosehulman.fisherds.integratedimagerec18"
         minSdkVersion 15
         targetSdkVersion 27
         versionCode 1

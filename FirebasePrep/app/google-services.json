@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "236308075503",
+    "firebase_url": "https://fisherds-me435-inclassprep.firebaseio.com",
+    "project_id": "fisherds-me435-inclassprep",
+    "storage_bucket": "fisherds-me435-inclassprep.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236308075503:android:827916f87d892471",
+        "android_client_info": {
+          "package_name": "edu.rosehulman.fisherds.integratedimagerecprep"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "236308075503-9bnv37g5o0s4hq8oqe8493eofmlujrod.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.rosehulman.fisherds.integratedimagerecprep",
+            "certificate_hash": "ef5fff871792451594f931be7f8d29f99cdeda98"
+          }
+        },
+        {
+          "client_id": "236308075503-qi9cljs9vtjse93act547d4t3cu4b00o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3vG9xBtc31TylSiTjj4Z_CoTFyHUefQU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "236308075503-qi9cljs9vtjse93act547d4t3cu4b00o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
