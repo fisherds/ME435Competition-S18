@@ -26,6 +26,7 @@ public class GolfBallDeliveryActivity extends ImageRecActivity {
    * Constant used with logging that you'll see later.
    */
   public static final String TAG = "GolfBallDelivery";
+  protected long mFirebaseUpdateCounter = 0;
 
   public enum State {
     READY_FOR_MISSION,
@@ -197,6 +198,9 @@ public class GolfBallDeliveryActivity extends ImageRecActivity {
     }
     mStateStartTime = System.currentTimeMillis();
     mCurrentStateTextView.setText(newState.name());
+
+    mFirebaseRef.child("state").setValue(newState.name());
+
     speak(newState.name().replace("_", " ").toLowerCase());
     switch (newState) {
       case READY_FOR_MISSION:
@@ -290,8 +294,19 @@ public class GolfBallDeliveryActivity extends ImageRecActivity {
         setState(State.READY_FOR_MISSION);
       }
     }
-    mMatchTimeTextView.setText(getString(R.string.time_format,
-        timeRemainingSeconds / 60, timeRemainingSeconds % 60));
+    String matchTime = getString(R.string.time_format,
+        timeRemainingSeconds / 60, timeRemainingSeconds % 60);
+    mMatchTimeTextView.setText(matchTime);
+
+    // Once every 2 seconds (20 calls to this function) sent the match and state times to Firebase
+    mFirebaseUpdateCounter++;
+    if (mFirebaseUpdateCounter % 20 == 0 && mState != State.READY_FOR_MISSION) {
+      // Send the match time
+      mFirebaseRef.child("time").child("matchTime").setValue(matchTime);
+
+      // Send the state time
+      mFirebaseRef.child("time").child("stateTime").setValue(getStateTimeMs() / 1000);
+    }
 
     switch (mState) {
       case READY_FOR_MISSION:
@@ -344,11 +359,16 @@ public class GolfBallDeliveryActivity extends ImageRecActivity {
   public void onLocationChanged(double x, double y, double heading, Location location) {
     super.onLocationChanged(x, y, heading, location);
 
+    mFirebaseRef.child("gps").child("x").setValue((int)mCurrentGpsX);
+    mFirebaseRef.child("gps").child("y").setValue((int)mCurrentGpsY);
+
     String gpsInfo = getString(R.string.xy_format, mCurrentGpsX, mCurrentGpsY);
     if (mCurrentGpsHeading != NO_HEADING) {
       gpsInfo += " " + getString(R.string.degrees_format, mCurrentGpsHeading);
+      mFirebaseRef.child("gps").child("heading").setValue((int)mCurrentGpsHeading);
     } else {
       gpsInfo += " ?°";
+      mFirebaseRef.child("gps").child("heading").setValue("No heading");
     }
     gpsInfo += "   " + mGpsCounter;
     mGpsInfoTextView.setText(gpsInfo);
@@ -530,6 +550,7 @@ public class GolfBallDeliveryActivity extends ImageRecActivity {
 
   public void handleFakeGpsF2(View view) {
     onLocationChanged(231, 50, 135, null); // Within range!
+    //sendMessage("Works like a console log from anywhere");
   }
 
   public void handleFakeGpsF3(View view) {
